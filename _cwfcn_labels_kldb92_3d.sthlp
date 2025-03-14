@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.1.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 0.2.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
 {hi:labels_kldb92_3d()} {hline 2} KldB-1992 labels (3 digits)
 
 {title:Description}

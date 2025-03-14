@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.1.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 0.2.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
 {hi:kldb88_3d_to_kldb10_5d()} {hline 2} Translate 3-digit KldB-1988 to 5-digit KldB-2010
 
 {title:Syntax}
@@ -857,7 +857,7 @@
 522  51312
 522  51311
 522  61142
-531  0
+531  .
 541  26232
 541  26233
 542  52532

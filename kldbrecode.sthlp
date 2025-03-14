@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.1.0 14mar2025}{...}
+{* version 0.2.0 14mar2025}{...}
 {vieweralsosee "[D] crosswalk" "help crosswalk"}{...}
 {viewerjumpto "Syntax" "kldbrecode##syntax"}{...}
 {viewerjumpto "Translations" "kldbrecode##kldbrec"}{...}
@@ -42,10 +42,10 @@
 {synoptset 36 tabbed}{...}
 {synoptline}
 {syntab :Occupational Prestige Scale for KldB-2010 }
-{synopt :{helpb _cwfcn_kldb10_2plus5_to_bas25:kldb10_2plus5_to_bas25()}}Occupational Prestige Scale (BAS-2|5) for KldB-2010 (2plus5-digit); also see{break}
+{synopt :{helpb _cwfcn_kldb10_2plus5_to_bas25:kldb10_2plus5_to_bas25()}}Occupational Prestige Scale (BAS-2|5) for KldB-2010 (2plus5-digit) ({help kldbrecode##bas:Ebner and Rohrbach-Schmidt, 2021}); also see{break}
     {helpb _cwfcn_kldb10_5d_to_bas25:kldb10_5d_to_bas25()}{break}
     {helpb _cwfcn_kldb10_3plus5_to_bas25:kldb10_3plus5_to_bas25()}{p_end}
-{synopt :{helpb _cwfcn_kldb10_3d_to_bas3:kldb10_3d_to_bas3()}}Occupational Prestige Scale (BAS-3) for KldB-2010 (3-digit); also see{break}
+{synopt :{helpb _cwfcn_kldb10_3d_to_bas3:kldb10_3d_to_bas3()}}Occupational Prestige Scale (BAS-3) for KldB-2010 (3-digit) ({help kldbrecode##bas:Ebner and Rohrbach-Schmidt, 2021}); also see{break}
     {helpb _cwfcn_kldb10_5d_to_bas3:kldb10_5d_to_bas3()}{break}
     {helpb _cwfcn_kldb10_4d_to_bas3:kldb10_4d_to_bas3()}{break}
     {helpb _cwfcn_kldb10_3plus5_to_bas3:kldb10_3plus5_to_bas3()}{p_end}
@@ -115,32 +115,32 @@
 {synopt :{helpb _cwfcn_isco08_to_bibb:isco08_to_bibb()}}ISCO-08 (4 digit) to (modified) BIBB fields{p_end}
 
 {syntab :Aggregation}
-{synopt :{helpb _cwfcn_kldb10_5d_to_kldb10_3plus5:kldb10_5d_to_kldb10_3plus5}}5-digit to 3plus5-digit KldB-2010{p_end}
+{synopt :{helpb _cwfcn_kldb10_5d_to_kldb10_3plus5:kldb10_5d_to_kldb10_3plus5()}}5-digit to 3plus5-digit KldB-2010{p_end}
 
-{synopt :{helpb _cwfcn_kldb10_3plus5_to_kldb10_2plus5:kldb10_3plus5_to_kldb10_2plus5}}3plus5-digit to 2plus5-digit KldB-2010; also see{break}
-    {helpb _cwfcn_kldb10_5d_to_kldb10_2plus5:kldb10_5d_to_kldb10_2plus5}{p_end}
+{synopt :{helpb _cwfcn_kldb10_3plus5_to_kldb10_2plus5:kldb10_3plus5_to_kldb10_2plus5()}}3plus5-digit to 2plus5-digit KldB-2010; also see{break}
+    {helpb _cwfcn_kldb10_5d_to_kldb10_2plus5:kldb10_5d_to_kldb10_2plus5()}{p_end}
 
-{synopt :{helpb _cwfcn_kldb10_5d_to_kldb10_4d:kldb10_5d_to_kldb10_4d}}5-digit to 4-digit KldB-2010{p_end}
+{synopt :{helpb _cwfcn_kldb10_5d_to_kldb10_4d:kldb10_5d_to_kldb10_4d()}}5-digit to 4-digit KldB-2010{p_end}
 
-{synopt :{helpb _cwfcn_kldb10_4d_to_kldb10_3d:kldb10_4d_to_kldb10_3d}}4-digit to 3-digit KldB-2010; also see{break}
-    {helpb _cwfcn_kldb10_5d_to_kldb10_3d:kldb10_5d_to_kldb10_3d}{break}
-    {helpb _cwfcn_kldb10_3plus5_to_kldb10_3d:kldb10_3plus5_to_kldb10_3d}{p_end}
+{synopt :{helpb _cwfcn_kldb10_4d_to_kldb10_3d:kldb10_4d_to_kldb10_3d()}}4-digit to 3-digit KldB-2010; also see{break}
+    {helpb _cwfcn_kldb10_5d_to_kldb10_3d:kldb10_5d_to_kldb10_3d()}{break}
+    {helpb _cwfcn_kldb10_3plus5_to_kldb10_3d:kldb10_3plus5_to_kldb10_3d()}{p_end}
 
-{synopt :{helpb _cwfcn_kldb10_3d_to_kldb10_2d:kldb10_3d_to_kldb10_2d}}3-digit to 2-digit KldB-2010; also see{break}
-    {helpb _cwfcn_kldb10_5d_to_kldb10_2d:kldb10_5d_to_kldb10_2d}{break}
-    {helpb _cwfcn_kldb10_4d_to_kldb10_2d:kldb10_4d_to_kldb10_2d}{break}
-    {helpb _cwfcn_kldb10_2plus5_to_kldb10_2d:kldb10_2plus5_to_kldb10_2d}{break}
-    {helpb _cwfcn_kldb10_3plus5_to_kldb10_2d:kldb10_3plus5_to_kldb10_2d}{p_end}
+{synopt :{helpb _cwfcn_kldb10_3d_to_kldb10_2d:kldb10_3d_to_kldb10_2d()}}3-digit to 2-digit KldB-2010; also see{break}
+    {helpb _cwfcn_kldb10_5d_to_kldb10_2d:kldb10_5d_to_kldb10_2d()}{break}
+    {helpb _cwfcn_kldb10_4d_to_kldb10_2d:kldb10_4d_to_kldb10_2d()}{break}
+    {helpb _cwfcn_kldb10_2plus5_to_kldb10_2d:kldb10_2plus5_to_kldb10_2d()}{break}
+    {helpb _cwfcn_kldb10_3plus5_to_kldb10_2d:kldb10_3plus5_to_kldb10_2d()}{p_end}
 
-{synopt :{helpb _cwfcn_kldb88_4d_to_kldb88_3d:kldb88_4d_to_kldb88_3d}}4-digit to 3-digit KldB-1988{p_end}
+{synopt :{helpb _cwfcn_kldb88_4d_to_kldb88_3d:kldb88_4d_to_kldb88_3d()}}4-digit to 3-digit KldB-1988{p_end}
 
-{synopt :{helpb _cwfcn_kldb88_3d_to_kldb88_2d:kldb88_3d_to_kldb88_2d}}3-digit to 2-digit KldB-1988; also see{break}
-    {helpb _cwfcn_kldb88_4d_to_kldb88_2d:kldb88_4d_to_kldb88_2d}{p_end}
+{synopt :{helpb _cwfcn_kldb88_3d_to_kldb88_2d:kldb88_3d_to_kldb88_2d()}}3-digit to 2-digit KldB-1988; also see{break}
+    {helpb _cwfcn_kldb88_4d_to_kldb88_2d:kldb88_4d_to_kldb88_2d()}{p_end}
 
-{synopt :{helpb _cwfcn_kldb92_4d_to_kldb92_3d:kldb92_4d_to_kldb92_3d}}4-digit to 3-digit KldB-1992{p_end}
+{synopt :{helpb _cwfcn_kldb92_4d_to_kldb92_3d:kldb92_4d_to_kldb92_3d()}}4-digit to 3-digit KldB-1992{p_end}
 
-{synopt :{helpb _cwfcn_kldb92_3d_to_kldb92_2d:kldb92_3d_to_kldb92_2d}}3-digit to 2-digit KldB-1992; also see{break}
-    {helpb _cwfcn_kldb92_4d_to_kldb92_2d:kldb92_4d_to_kldb92_2d}{p_end}
+{synopt :{helpb _cwfcn_kldb92_3d_to_kldb92_2d:kldb92_3d_to_kldb92_2d()}}3-digit to 2-digit KldB-1992; also see{break}
+    {helpb _cwfcn_kldb92_4d_to_kldb92_2d:kldb92_4d_to_kldb92_2d()}{p_end}
 
 {synoptline}
 

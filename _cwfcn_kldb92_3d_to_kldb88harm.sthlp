@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.1.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 0.2.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
 {hi:kldb92_3d_to_kldb88_3d_harm()} {hline 2} Translate 3-digit KldB-1992 to harmonized 3-digit KldB-1988 
 
 {title:Syntax}
@@ -16,12 +16,15 @@
 
 {title:Source}
 
-
 {pstd}
     File {browse "https://access.gesis.org/sharing/2126/2333":Transition_key_occupational_groups_KldB75_88_92.xlsx}.
     Provided with Maier, T. (2020).
     Occupational Panel on Tasks and Education (OPTE) for Western Germany from 1973 to 2011.
     GESIS, Köln. Datenfile Version 1.0.0. DOI: {browse "https://doi.org/10.7802/2126":10.7802/2126}.
+    {p_end}
+ 
+{pstd}
+    Translations for 250, 266, 268, 269, 292, 293, 307, 354, 609, 661, 662, 663 added.
     {p_end}
     
 {hline}
@@ -85,6 +88,7 @@
 235  230
 241  240
 245  240
+250  250
 252  250
 254  250
 255  250
@@ -93,7 +97,10 @@
 261  250
 264  250
 265  250
+266  250
 267  250
+268  250
+269  250
 270  250
 273  250
 274  250
@@ -104,6 +111,8 @@
 283  283
 287  283
 290  230
+292  230
+293  230
 294  230
 295  230
 300  230
@@ -111,6 +120,7 @@
 303  303
 304  304
 305  305
+307  305
 308  286
 309  305
 310  310
@@ -132,6 +142,7 @@
 351  350
 352  350
 353  350
+354  350
 358  350
 359  350
 361  360
@@ -222,6 +233,9 @@
 651  629
 652  629
 660  682
+661  682
+662  682
+663  682
 670  681
 671  681
 672  681
@@ -376,4 +390,8 @@
 981  981
 982  981
 983  981
+991  991
+993  991
+995  991
+996  991
 997  991

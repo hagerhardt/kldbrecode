@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.1.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 0.2.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
 {hi:kldb92_4d_to_kldb92_2d()} {hline 2} Translate 4-digit KldB-1992 to 2-digit KldB-1992 codes
 
 {title:Syntax}

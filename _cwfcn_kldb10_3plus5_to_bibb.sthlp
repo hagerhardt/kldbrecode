@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.1.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 0.2.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
 {hi:kldb10_3plus5_to_bibb()} {hline 2} Translate 3plus5-digit KldB-2010 to BIBB occupational fields (2 digit)
 
 {title:Syntax}

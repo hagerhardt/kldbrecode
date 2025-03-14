@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.1.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 0.2.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
 {hi:kldb10_5d_to_bibb()} {hline 2} Translate 5-digit KldB-2010 codes to BIBB-Occupational-Fields
 
 {title:Syntax}

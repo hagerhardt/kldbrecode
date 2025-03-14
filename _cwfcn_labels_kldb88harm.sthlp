@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.1.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 0.2.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
 {hi:labels_kldb88_3d_harm()} {hline 2} harmonized KldB-1988 labels (3 digits)
 
 {title:Description}
@@ -34,9 +34,9 @@
 143  "Rubber manufacturers and processors, vulcanisers"
 151  "Plastics related occupations"
 160  "Paper manufactueres and processors"
+163  "Bookbinders"
 171  "Typesetters"
 172  "Printers and print processors"
-163  "Bookbinders"
 180  "Occupations in woodworking and the manufacture of wood, straw or plaiting products"
 190  "Occupations in the metallurgical and semi-finished product industry"
 200  "Foundry mechanics and other caster occupations"

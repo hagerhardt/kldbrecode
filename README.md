@@ -1,7 +1,7 @@
-# kldbrecode - test version
+# kldbrecode
 Stata module to translate German Classifications of Occupations (KldB)
 
-`kldbrecode` provides crosswalk tables for translations between German KldB and from KldB to ISCO. 
+`kldbrecode` provides crosswalk tables for translations between German KldB and ISCO.
 The recodings can be performed using the `crosswalk` command by Ben Jann.
 
 The package allows for various transformations from German KldB codes:
@@ -14,7 +14,7 @@ The package allows for various transformations from German KldB codes:
 
 A set of labels for German classifications of occupations is also provided.
 
-To install the `kldbrecode` package from M, type
+To install the `kldbrecode` package from GitHub, type
 
     . net from https://raw.githubusercontent.com/hagerhardt/kldbrecode/main/
     . net install kldbrecode, replace

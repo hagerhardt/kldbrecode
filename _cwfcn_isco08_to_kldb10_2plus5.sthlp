@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.1.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 0.2.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
 {hi:isco08_to_kldb10_2plus5()} {hline 2} Translate 4-digit ISCO-08 to 2plus5-digit KldB-2010
 
 {title:Syntax}
