@@ -1,2 +1,8 @@
-v 2
+v 0.1
+d Hans Gerhardt and Anneke Kappes
+d mail hans.gerhardt@wzb.eu
+d https://github.com/hagerhardt/kldbrecode
+
+d 'kldbrecode' module to translate German Classifications of Occupations (KldB)
+
 p kldbrecode
