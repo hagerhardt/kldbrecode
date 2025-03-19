@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 0.2.1 19mar2025  Hans Gerhardt and Anneke Kappes}{...}
 {hi:kldb10_4d_to_kldb10_2d()} {hline 2} Translate 4-digit KldB-2010 to 2-digit KldB-2010 codes
 
 {title:Syntax}
@@ -13,8 +13,6 @@
 
 {pstd}
     {helpb kldbrecode} table translating KldB-2010 occupationals sub-groups (4 digit codes) to KldB-2010 occupational main groups (2 digit codes) using {helpb crosswalk}.
-
-{title:Source}
 
 {pstd}
     {cmd:kldb10_4d_to_kldb10_2d()} is implemented as a wrapper for 

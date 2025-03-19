@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 0.2.1 19mar2025  Hans Gerhardt and Anneke Kappes}{...}
 {hi:labels_kldb88_3d_harm()} {hline 2} harmonized KldB-1988 labels (3 digits)
 
 {title:Description}

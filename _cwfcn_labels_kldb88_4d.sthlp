@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 0.2.1 19mar2025  Hans Gerhardt and Anneke Kappes}{...}
 {hi:labels_kldb88_4dde()} {hline 2} German KldB-1988 labels (4 digits)
 
 {title:Description}

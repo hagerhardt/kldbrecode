@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 0.2.1 19mar2025  Hans Gerhardt and Anneke Kappes}{...}
 {hi:labels_bibb()} {hline 2} BIBB-Occupational-Fields labels (2 digits)
 
 {title:Description}

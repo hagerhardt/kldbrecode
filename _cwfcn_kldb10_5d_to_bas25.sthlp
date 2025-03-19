@@ -1,5 +1,5 @@
-kldb10_5d_to_bas25{smcl}
-{* version 0.2.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
+{smcl}
+{* version 0.2.1 19mar2025  Hans Gerhardt and Anneke Kappes}{...}
 {hi:kldb10_5d_to_bas25()} {hline 2} Translate 5-digit KldB-2010 to 2-digit KldB-2010 codes
 
 {title:Syntax}
@@ -25,8 +25,11 @@ kldb10_5d_to_bas25{smcl}
 {pstd}
     {helpb kldbrecode} table translating KldB-2010 occupational types (5 digit codes) to BAS-3 occupational prestige scores
     using {helpb crosswalk}.
+    {p_end}
 
+{pstd}
     5-digit KldB-2010 codes could also be translated to BAS-3 occupational prestige scores via {helpb _cwfcn_kldb10_5d_to_bas3:kldb10_5d_to_bas3()}. 
+    {p_end}
 
 {pstd}
     Ebner and Rohrbach-Schmidt provide two versions of the occupational prestige scores. 

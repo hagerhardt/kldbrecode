@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 0.2.1 19mar2025  Hans Gerhardt and Anneke Kappes}{...}
 {hi:kldb10_3plus5_to_isco08()} {hline 2} Translate 3plus5-digit KldB-2010 to 4-digit ISCO-08
 
 {title:Syntax}
@@ -21,7 +21,7 @@
 {pstd}
     We have generated this crosswalk translating KldB-2010 occupational groups (3 digits) combined with the skill level (5th-digit) to 4-digit ISCO-08 based on the crosswalk form 5-digit KldB-2010 to ISCO.
     The inverted table is sorted based on the overlap in the German microscensuses between 2012 and 2021.
-    To translate KldB codes to most likely ISCO code specify {{cmd:duplicates(first)}.
+    To translate KldB codes to most likely ISCO code specify {cmd:duplicates(first)}.
     {p_end}
 
 {title:Source}

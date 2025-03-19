@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 0.2.1 19mar2025  Hans Gerhardt and Anneke Kappes}{...}
 {hi:kldb10_3plus5_to_kldb10_2plus5()} {hline 2} Translate 3plus5-digit KldB-2010 codes to 2plus5-digit KldB-2010 codes
 
 {title:Syntax}

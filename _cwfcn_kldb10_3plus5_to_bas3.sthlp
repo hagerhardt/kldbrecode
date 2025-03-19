@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 0.2.1 19mar2025  Hans Gerhardt and Anneke Kappes}{...}
 {hi:kldb10_3plus5_to_bas3()} {hline 2} Translate 3plus5-digit KldB-2010 to BAS-3 scores.
 
 {title:Syntax}
@@ -15,6 +15,7 @@
     {helpb kldbrecode} table translating KldB-2010 occupational groups (3 digits) combined with the skill level (5th-digit) to BAS-3 occupational prestige scores
     using {helpb crosswalk}.
 
+{pstd}
     3plus5-digit KldB-2010 codes could also be translated to BAS-2|5 occupational prestige scores via {helpb _cwfcn_kldb10_3plus5_to_bas25:kldb10_3plus5_to_bas25()}. 
 
 {pstd}

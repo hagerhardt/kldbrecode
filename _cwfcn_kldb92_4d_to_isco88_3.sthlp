@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 0.2.1 19mar2025  Hans Gerhardt and Anneke Kappes}{...}
 {hi:kldb92_4d_to_isco88_3()} {hline 2} Translate 4-digit KldB-1992 to 3-digit ISCO-88
 
 {title:Syntax}
@@ -20,7 +20,8 @@
 {pstd}
    File {bf:{browse "https://metadaten.bibb.de/download/txt/493_20160210_1455092226/Umsteiger_kldb92_in_isco88_stata":Umsteiger_kldb92_in_isco88_stata.txt}} applied to 4-digit KldB-1992 Codes.
    Provided by the Federal Institute for Vocational Education and Training (BIBB) at {browse "https://metadaten.bibb.de/download/txt/493_20160210_1455092226/Umsteiger_kldb92_in_isco88_stata"}.
-	
+
+{pstd}
     Leading zeros have been added to KldB-1992 codes with less than 4 digits.
   
     

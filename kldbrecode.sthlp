@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.0 14mar2025}{...}
+{* version 0.2.1 19mar2025}{...}
 {vieweralsosee "[D] crosswalk" "help crosswalk"}{...}
 {viewerjumpto "Syntax" "kldbrecode##syntax"}{...}
 {viewerjumpto "Translations" "kldbrecode##kldbrec"}{...}
@@ -28,7 +28,7 @@
     {ifin} [{cmd:,} {help crosswalk##opt:{it:crosswalk options}} ]
 
 {pstd}
-    Assing {it:kldblbl} (to existing variables)
+    Assign {it:kldblbl} (to existing variables)
 
 {p 8 15 2}
     {cmd:crosswalk} {cmdab:l:abel} {help kldbrecode##kldblbl:{it:kldblbl}}
@@ -181,85 +181,32 @@
 {synoptline}
 
 {marker measures}{...}
-{title:Occupation-based measures and occupational statistics for Germany based on KldB}
+{title:Measures and occupational statistics based on KldB}
 
-{dlgtab:Occupational Tasks}
-
-{phang}
-    BERUFENET Tasks (expert rating, five task profiles)
+{pstd}
+    The different variants and aggregations of the German KldB allow for matching 
+    a large number of occupational statistics and different measures 
+    that we were unable to provide in this package. 
+    An overview of occupation-based measures with a focus on the German context 
+    is given by {help kldbrecode##occmeasures:Christoph, Matthes and Ebner (2020)}.
+    Easily accessible statistics on socio-structural information, 
+    complemented by a number of other measures such as task profiles, 
+    substitutability or the greening of job tasks, 
+    are provided by the IAB occupational panels 
+    ({help kldbrecode##occupan:Grienberger, Janser, and Lehmer, 2022}
+    and {help kldbrecode##occpan:Hausmann, Zucco, and Kleinert, 2015}).
     {p_end}
-
-{pmore}
-    Provided for KldB-2010 (3plus5) for the years 2013 and 2016 in the Occupational Panel for Germany 2012-2022 ({help kldbrecode##occupan:Grienberger, Janser, and Lehmer, 2022}).
-
-{phang}
-    11 task profiles based on labor force survey, West Germany 1973 to 2011
-    {p_end}
-
-{pmore}
-    Provided for harmonized KldB-1988 in the Occupational Panel on Tasks and Education (OPTE) for Western Germany ({help kldbrecode##opte:Maier, 2020}).
-
-{phang}
-    Substitution potential of Job Tasks 2013 and 2016 (Mathes)
-    {p_end}
-
-{pmore}
-    Provided for KldB-2010 (3plus5) in the Occupational Panel for Germany 2012-2022 ({help kldbrecode##occupan:Grienberger, Janser, and Lehmer, 2022}).
-
-{phang}
-    Greening of Job Tasks Index (Janser)
-    {p_end}
-
-{pmore}
-    Provided for KldB-2010 (3plus5) in the Occupational Panel for Germany 2012-2022 ({help kldbrecode##occupan:Grienberger, Janser, and Lehmer, 2022}).
-
-
-{dlgtab:Digitalization of Jobs}
-
-{phang}
-    Digital tool index 2017
-    {p_end}
-
-{pmore}
-    Provided for KldB-2010 (3plus5) in the Occupational Panel for Germany 2012-2022 ({help kldbrecode##occupan:Grienberger, Janser, and Lehmer, 2022}).
-
-{dlgtab: Socio-Structural Information}
-
-{phang}
-    Socio-Structural Information for the years 2012-2022.
-    {p_end}
-
-{pmore}
-    Provided for KldB-2010 (3plus5) in the Occupational Panel for Germany 2012-2022 ({help kldbrecode##occupan:Grienberger, Janser, and Lehmer, 2022}).
-
-{phang}
-    Socio-Structural Information for West Germany 1967-2010.
-    {p_end}
-
-{pmore}
-    Provided for harmonized KldB-1988 in the Occupational Panel for West Germany 1976-2010 ({help kldbrecode##occpan:Hausmann, Zucco, and Kleinert, 2015}).
-
-
-{dlgtab:Job-Exposure-Matrices}
-
-{phang}
-    Overall Job Exposure, Physical Exposure, Psychosocial Exposure, Heavy Work, Carcynogenic Agents based on the BIBB/BAuA Employment Survey 2011
-    {p_end}
-
-{pmore}
-    Provided for KldB-2010, KldB-1992, ISCO-08, and ISCO-88 by {help kldbrecode##kroll:Kroll (2015)}.
-    
-
-{phang}
-    Physical demands, Environmental demands, Work intensity, Autonomy, Working time location based on the BIBB/BAuA Employment Survey 2018
-    {p_end}
-
-{pmore}
-    Provided for KldB-1992 and ISCO-08 by {help kldbrecode##bauajem:Meyer and Siefer (2021)}.
-
 
 {marker references}{...}
 {title:References}
+
+{marker occmeasures}{...}
+{phang}
+    Christoph, B., Matthes, B. and Ebner, C. 2020.
+    Occupation-Based Measures. An Overview and Discussion. 
+    Kölner Zeitschrift für Soziologie, 72(Suppl 1), 41–78. 
+    DOI: {browse "https://doi.org/10.1007/s11577-020-00673-4"":10.1007/s11577-020-00673-4}.
+    {p_end}
 
 {marker bas}{...}
 {phang}
@@ -308,14 +255,6 @@
     {browse "https://ideas.repec.org/c/boc/bocode/s459420.html"}.
     {p_end}
 
-{marker kroll}{...}
-{phang}
-    Kroll, L. E. 2015. 
-    Job Exposure Matrices (JEM) for ISCO and KldB (Version 2.0).
-    GESIS, Köln. Datenfile Version 1.0.0. 
-    DOI: {browse "https://doi.org/10.7802/1102":10.7802/1102}.
-    {p_end}
-
 {marker opte}{...}
 {phang}
     Maier, T. 2020. Occupational Panel on Tasks and Education (OPTE) for Western Germany from 1973 to 2011. 
@@ -325,22 +264,8 @@
 {phang}
     Maier, T. 2022. Change in occupational tasks and its implications.
     Evidence from a task panel from 1973 to 2011 for Western Germany. 
-    Quality & Quantity. DOI: {browse "https://doi.org/10.1007/s11135-021-01158":10.1007/s11135-021-01158}.
+    Quality & Quantity. DOI: {browse "https://doi.org/10.1007/s11135-021-01158-y":10.1007/s11135-021-01158-y}.
     {p_end}
-
-{marker bauajem}{...}
-{phang}
-    Meyer, S.-C., and Siefer, A. 2021. 
-    Entwicklung einer Job-Exposure-Matrix (JEM) auf Basis der BIBB/BAuA-Erwerbstätigenbefragung 2018. 
-    baua: Fokus. Federal Institute for Occupational Safety and Health (BAuA), Dortmund.
-    DOI: {browse "https://doi.org/10.21934/baua:fokus20210105":10.21934/baua:fokus20210105}.
-    {p_end}
-
-{pmore}
-    Public Use File provided by the 
-    Research Data Center (FDZ) at the Federal Institute for Occupational Safety and Health (BAuA), Dortmund.
-    DOI: {browse "https://doi.org/10.21934/baua.jemetb18.puf.1":10.21934/baua.jemetb18.puf.1} 
-
 
 {marker author}{...}
 {title:Authors}

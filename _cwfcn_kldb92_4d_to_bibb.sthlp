@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 0.2.1 19mar2025  Hans Gerhardt and Anneke Kappes}{...}
 {hi:kldb92_4d_to_bibb()} {hline 2} Translate 4-digit KldB-1992 codes to BIBB-Occupational-Fields
 
 {title:Syntax}
@@ -14,7 +14,7 @@
 {pstd}
     {helpb kldbrecode} table translating KldB-1992 types of occupations (4 digit codes) to BIBB-Occupational-Fields using {helpb crosswalk}.
 
-    {pstd}
+{pstd}
     Besides the original crosswalk from the BIBB, this {helpb kldbrecode} table provides a modified version by Hans Gerhardt.
     The modified version improves the overlap in microcensus 2012 data when recoding both KldB-1992 and KldB-2010 codes to BIBB occupational fields. 
     Therefore, it provides more consistent time series with microcensus data.

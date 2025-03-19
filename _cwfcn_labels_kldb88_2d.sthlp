@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 0.2.1 19mar2025  Hans Gerhardt and Anneke Kappes}{...}
 {hi:labels_kldb88_2d()} {hline 2} KldB-1988 labels (2 digits)
 
 {title:Description}
@@ -12,7 +12,7 @@
 {pstd}
     File {bf:{browse "https://metadaten.bibb.de/download/txt/604_20160413_1460534478/label_KldB88_eng_stata":label_KldB88_eng_stata.txt}}
     provided by the Federal Institute for Vocational Education and Training (BIBB) at {browse "https://metadaten.bibb.de/en/classification/detail/5"}.
-{p_end}
+    {p_end}
 
 {hline}
 {asis}

@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 0.2.1 19mar2025  Hans Gerhardt and Anneke Kappes}{...}
 {hi:isco08_to_kldb10_3plus5()} {hline 2} Translate 4-digit ISCO-08 to 3plus5-digit KldB-2010
 
 {title:Syntax}
@@ -22,7 +22,7 @@
 {pstd}
     We have generated this crosswalk translating 4-digit ISCO-08 codes to 3plus5-digit KldB-2010 based on the crosswalk form 5-digit KldB-2010 to ISCO.
     The inverted table is sorted based on the overlap in the German microscensuses between 2012 and 2021.
-    To translate ISCO codes to most likely KldB code specify {{cmd:duplicates(first)}.
+    To translate ISCO codes to most likely KldB code specify {cmd:duplicates(first)}.
     {p_end}
 
 {title:References}

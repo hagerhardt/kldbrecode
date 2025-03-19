@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 0.2.1 19mar2025  Hans Gerhardt and Anneke Kappes}{...}
 {hi:isco08_4d_to_bibb()} {hline 2} Translate 4-digit ISCO-08 to BIBB occupational fields (2 digit)
 
 {title:Syntax}

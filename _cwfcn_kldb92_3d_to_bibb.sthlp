@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 0.2.1 19mar2025  Hans Gerhardt and Anneke Kappes}{...}
 {hi:kldb92_3d_to_bibb()} {hline 2} Translate 3-digit KldB-1992 to BIBB occupational fields (2 digit)
 
 {title:Syntax}
@@ -15,7 +15,7 @@
     {helpb kldbrecode} table translating KldB-1992 occupational orders (3 digit codes) to BIBB occupational fields (2 digit)
     codes using {helpb crosswalk}.
 
-    {pstd}
+{pstd}
     Besides the original crosswalk from the BIBB, this {helpb kldbrecode} table provides a modified version by Hans Gerhardt.
     The modified version improves the overlap in microcensus 2012 data when recoding both KldB-1992 and KldB-2010 codes to BIBB occupational fields. 
     Therefore, it provides more consistent time series with microcensus data.

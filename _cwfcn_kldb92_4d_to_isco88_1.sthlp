@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 0.2.1 19mar2025  Hans Gerhardt and Anneke Kappes}{...}
 {hi:kldb92_4d_to_isco88_1()} {hline 2} Translate 4-digit KldB-1992 to 1-digit ISCO-88
 
 {title:Syntax}
@@ -14,8 +14,6 @@
 {pstd}
     {helpb kldbrecode} table translating KldB-1992 types of occupations (4 digit codes)
     to 1-digit ISCO-88 codes (major groups) using {helpb crosswalk}.
-
-{title:Source}
 
 {pstd}
     {cmd:isco88_to_isco88_1()} is implemented as a wrapper for 

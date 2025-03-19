@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.0 14mar2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 0.2.1 19mar2025  Hans Gerhardt and Anneke Kappes}{...}
 {hi:kldb88_3d_to_kldb10_2plus5()} {hline 2} Translate 3-digit KldB-1988 to 2plus5-digit KldB-2010 codes
 
 {title:Syntax}
@@ -21,7 +21,7 @@
     {p_end}
 
 {pstd}
-    {helpb _cwfcn_kldb88_3d_to_kldb10_5d:kldb88_3d_to_kldb10_5d()} requires option {helpb crosswalk##dupl:duplicates()}.
+    {helpb _cwfcn_kldb88_3d_to_kldb10_5d:kldb88_3d_to_kldb10_5d()} is non-unique and requires option {helpb crosswalk##dupl:duplicates()}.
     {p_end}
     
 {hline}
