@@ -1,4 +1,4 @@
-# CC-BY-SA-4.0 Licence
+# CC-BY-SA-4.0 License
 
 The material is subject to the Creative Commons License [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/): Attribution - Non-commercial - Share alike.
 
