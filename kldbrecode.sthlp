@@ -43,7 +43,7 @@
 {synoptset 33 tabbed}{...}
 {synoptline}
 
-{bf :Translations from KldB-2010} 
+{synopt : {ul: Translations from KldB-2010}}{p_end}
 
 {synopt :{helpb _cwfcn_kldb10_5d_to_kldb88_3d:kldb10_5d_to_kldb88_3d()}}KldB-2010 (5 digit) to KldB-1988; also see{break}
     {helpb _cwfcn_kldb10_5d_to_kldb88_2d:kldb10_5d_to_kldb88_2d()}{break}
@@ -60,7 +60,7 @@
     {helpb _cwfcn_kldb10_5d_to_bibb:kldb10_5d_to_bibb()}{p_end}
 
 
-{bf :Translations from KldB-1992}
+{synopt : {ul: Translations from KldB-1992}}{p_end}
 
 {synopt :{helpb _cwfcn_kldb92_4d_to_kldb10_5d:kldb92_4d_to_kldb10_5d()}}KldB-1992 (4 digit) to KldB-2010 (5 digit) (non-unique); also see{break}
     {helpb _cwfcn_kldb92_4d_to_kldb10_3plus5:kldb92_4d_to_kldb10_3plus5()}{break}
@@ -84,7 +84,7 @@
     {helpb _cwfcn_kldb92_4d_to_bibb:kldb92_4d_to_bibb()}{p_end}
 
 
-{bf :Translations from KldB-1988}
+{synopt : {ul: Translations from KldB-1988}}{p_end}
 
 {synopt :{helpb _cwfcn_kldb88_4d_to_kldb10_5d:kldb88_4d_to_kldb10_5d()}}KldB-1988 (4 digit) to KldB-2010 (5 digit) (non-unique); also see{break}
     {helpb _cwfcn_kldb88_4d_to_kldb10_3plus5:kldb88_4d_to_kldb10_3plus5()}{break}
@@ -104,14 +104,14 @@
     {helpb _cwfcn_kldb88_4d_to_bibb:kldb88_4d_to_bibb()}{p_end}
 
 
-{bf :Translations from KldB-1975}
+{synopt : {ul: Translations from KldB-1975}}{p_end}
 
 {synopt :{helpb _cwfcn_kldb75_3d_to_kldb88_3d:kldb75_3d_to_kldb88_3d()}}KldB-1975 (3 digit) to KldB-1988; also see{break}
     {helpb _cwfcn_kldb75_3d_to_kldb88_2d:kldb75_3d_to_kldb88_2d()}{p_end}
 {synopt :{helpb _cwfcn_kldb75_3d_to_kldb88harm:kldb75_3d_to_kldb88harm()}}KldB-1975 (3 digit) to KldB-1988, harmonized version{p_end}
 
 
-{bf :Translation from ISCO-08}
+{synopt : {ul: Translation from ISCO-08}}{p_end}
 
 {synopt :{helpb _cwfcn_isco08_to_kldb10_3plus5:isco08_to_kldb10_3plus5()}}ISCO-08 (4 digit) to KldB-2010 (3plus5 digit) (non-unique); also see{break}
     {helpb _cwfcn_isco08_to_kldb10_2plus5:isco08_to_kldb10_2plus5()}{break}
@@ -120,7 +120,7 @@
 {synopt :{helpb _cwfcn_isco08_to_bibb:isco08_to_bibb()}}ISCO-08 (4 digit) to (modified) BIBB fields{p_end}
 
 
-{bf :Occupational Prestige Scale for KldB-2010 by {help kldbrecode##bas:Ebner and Rohrbach-Schmidt (2021)}}
+{synopt : {ul: Occupational Prestige Scale for KldB-2010} by {help kldbrecode##bas:Ebner and Rohrbach-Schmidt (2021)}}{p_end}
 
 {synopt :{helpb _cwfcn_kldb10_2plus5_to_bas25:kldb10_2plus5_to_bas25()}}Occupational Prestige Scale (BAS-2|5) for KldB-2010 (2plus5-digit); also see{break}
     {helpb _cwfcn_kldb10_5d_to_bas25:kldb10_5d_to_bas25()}{break}
@@ -131,7 +131,7 @@
     {helpb _cwfcn_kldb10_3plus5_to_bas3:kldb10_3plus5_to_bas3()}{p_end}
 
 
-{bf :Aggregation}
+{synopt : {ul: Aggregation}}{p_end}
 
 {synopt :{helpb _cwfcn_kldb10_5d_to_kldb10_3plus5:kldb10_5d_to_kldb10_3plus5()}}5-digit to 3plus5-digit KldB-2010{p_end}
 
