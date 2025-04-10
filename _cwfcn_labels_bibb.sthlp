@@ -1,11 +1,18 @@
 {smcl}
-{* version 0.2.3 03apr2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 01.0.0 10apr2025 Hans Gerhardt and Anneke Kappes}{...}
 {hi:labels_bibb()} {hline 2} BIBB-Occupational-Fields labels (2 digits)
 
 {title:Description}
 
 {pstd}
     {helpb kldbrecode} table providing labels for 2-digit BIBB Occupational Fields codes.
+
+{title:Reference}
+
+{pstd}
+     Tiemann, M., Schade, H. J., Helmrich, R., Hall, A., Braun, U., Bott, P. (2008).  
+     Berufsfeld-Definitionen des BIBB.  Bonn: Federal Institute for Vocational Education and Training (BIBB).
+    {p_end}
 
 {title:Source}
 

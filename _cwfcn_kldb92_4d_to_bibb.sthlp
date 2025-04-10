@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.3 03apr2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 01.0.0 10apr2025 Hans Gerhardt and Anneke Kappes}{...}
 {hi:kldb92_4d_to_bibb()} {hline 2} Translate 4-digit KldB-1992 codes to BIBB-Occupational-Fields
 
 {title:Syntax}

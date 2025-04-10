@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.3 03apr2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 01.0.0 10apr2025 Hans Gerhardt and Anneke Kappes}{...}
 {hi:kldb75_3d_to_kldb88_3d_harm()} {hline 2} Translate 3-digit KldB-1975 to harmonized 3-digit KldB-1988 
 
 {title:Syntax}

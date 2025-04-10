@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.3 03apr2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 01.0.0 10apr2025 Hans Gerhardt and Anneke Kappes}{...}
 {hi:kldb10_2plus5_to_bas25()} {hline 2} Translate 2plus5-digit KldB-2010 to BAS-2|5 scores.
 
 {title:Syntax}

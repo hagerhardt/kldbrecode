@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.3 03apr2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 01.0.0 10apr2025 Hans Gerhardt and Anneke Kappes}{...}
 {hi:kldb88_3d_to_kldb10_5d()} {hline 2} Translate 3-digit KldB-1988 to 5-digit KldB-2010
 
 {title:Syntax}
@@ -28,11 +28,18 @@
 
 {pstd}
     Bundesagentur für Arbeit, Statistik/Arbeitsmarktberichterstattung. (2011 / 2010). 
-	Umsteigeschlüssel von der Klassifikation der Berufe 1988 (4-Steller / 3-Steller) zur Klassifikation der Berufe 2010 (5-Steller). Bundesagentur für Arbeit.
-	Provided at {browse "https://statistik.arbeitsagentur.de/DE/Navigation/Grundlagen/Klassifikationen/Klassifikation-der-Berufe/Archiv-KldB/KldB2010/KldB2010-Nav.html"}.
+    Umsteigeschlüssel von der Klassifikation der Berufe 1988 (4-Steller / 3-Steller) zur Klassifikation der Berufe 2010 (5-Steller). Bundesagentur für Arbeit.
+    Provided at {browse "https://statistik.arbeitsagentur.de/DE/Navigation/Grundlagen/Klassifikationen/Klassifikation-der-Berufe/Archiv-KldB/KldB2010/KldB2010-Nav.html"}.
     {p_end}
-    
+
+{pstd}  
     Leading zeros have been added to KldB-1988 codes with less than 3 digits.
+    {p_end}
+
+{pstd}
+    81122 Podologist - skilled tasks was changed to 81772 with the 2020 revision.
+    Translations from 631 to 41534, 852 to 81732, and 901 to 82313 were removed because target codes does not exist.
+    {p_end}
 
 {hline}
 {asis}
@@ -1269,7 +1276,6 @@
 631  41293
 631  41294
 631  41313
-631  41534
 631  42202
 631  81143
 632  41412
@@ -2050,7 +2056,6 @@
 852  81722
 852  81723
 852  81724
-852  81732
 852  81733
 852  81734
 852  81743
@@ -2338,10 +2343,9 @@
 893  83383
 901  82312
 901  82311
-901  82313
 901  82393
 902  82322
-902  81122
+902  81772
 902  82222
 902  82332
 902  84214

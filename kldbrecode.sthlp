@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.3 03apr2025}{...}
+{* version 0.03.0 04apr2025}{...}
 {vieweralsosee "[D] crosswalk" "help crosswalk"}{...}
 {viewerjumpto "Syntax" "kldbrecode##syntax"}{...}
 {viewerjumpto "Translations" "kldbrecode##kldbrec"}{...}
@@ -8,9 +8,10 @@
 {viewerjumpto "References" "kldbrecode##references"}{...}
 {viewerjumpto "Authors" "kldbrecode##author"}{...}
 {hi:help kldbrecode}{...}
+{right:{browse "https://github.com/hagerhardt/kldbrecode"}}
 {hline}
 
-{title:Testversion}
+{title:Title}
 
 {pstd}{hi:kldbrecode} {hline 2} Crosswalk tables to translate German Classifications of Occupations (KldB)
 
@@ -41,37 +42,35 @@
 {marker kldbrec}{synopt :{it:kldbrec}()}Description{p_end}
 {synoptset 33 tabbed}{...}
 {synoptline}
-{syntab :Occupational Prestige Scale for KldB-2010 by {help kldbrecode##bas:Ebner and Rohrbach-Schmidt (2021)}}
-{synopt :{helpb _cwfcn_kldb10_2plus5_to_bas25:kldb10_2plus5_to_bas25()}}Occupational Prestige Scale (BAS-2|5) for KldB-2010 (2plus5-digit); also see{break}
-    {helpb _cwfcn_kldb10_5d_to_bas25:kldb10_5d_to_bas25()}{break}
-    {helpb _cwfcn_kldb10_3plus5_to_bas25:kldb10_3plus5_to_bas25()}{p_end}
-{synopt :{helpb _cwfcn_kldb10_3d_to_bas3:kldb10_3d_to_bas3()}}Occupational Prestige Scale (BAS-3) for KldB-2010 (3-digit); also see{break}
-    {helpb _cwfcn_kldb10_5d_to_bas3:kldb10_5d_to_bas3()}{break}
-    {helpb _cwfcn_kldb10_4d_to_bas3:kldb10_4d_to_bas3()}{break}
-    {helpb _cwfcn_kldb10_3plus5_to_bas3:kldb10_3plus5_to_bas3()}{p_end}
 
-{syntab :Translations from KldB-2010}
+{bf :Translations from KldB-2010} 
+
 {synopt :{helpb _cwfcn_kldb10_5d_to_kldb88_3d:kldb10_5d_to_kldb88_3d()}}KldB-2010 (5 digit) to KldB-1988; also see{break}
     {helpb _cwfcn_kldb10_5d_to_kldb88_2d:kldb10_5d_to_kldb88_2d()}{break}
     {helpb _cwfcn_kldb10_5d_to_kldb88harm:kldb10_5d_to_kldb88harm()}{p_end}
-{synopt :{helpb _cwfcn_kldb10_5d_to_isco08:kldb10_5d_to_isco08()}}KldB-2010 (5 digit) to ISCO-08 (non-unique, requires option {help crosswalk##dupl:duplicates()}); also see{break}
+{synopt :{helpb _cwfcn_kldb10_5d_to_isco08:kldb10_5d_to_isco08()}}KldB-2010 (5 digit) to ISCO-08 (non-unique); also see{break}
     {helpb _cwfcn_kldb10_5d_to_isco08_3:kldb10_5d_to_isco08_3()}{break}
     {helpb _cwfcn_kldb10_5d_to_isco08_2:kldb10_5d_to_isco08_2()}{break}
     {helpb _cwfcn_kldb10_5d_to_isco08_1:kldb10_5d_to_isco08_1()}{p_end}
-{synopt :{helpb _cwfcn_kldb10_3plus5_to_isco08:kldb10_3plus5_to_isco08()}}KldB-2010 (3plus5 digit) to ISCO-08 (non-unique, requires option {help crosswalk##dupl:duplicates()}); also see{break}
+{synopt :{helpb _cwfcn_kldb10_3plus5_to_isco08:kldb10_3plus5_to_isco08()}}KldB-2010 (3plus5 digit) to ISCO-08 (non-unique); also see{break}
     {helpb _cwfcn_kldb10_3plus5_to_isco08_3:kldb10_3plus5_to_isco08_3()}{break}
     {helpb _cwfcn_kldb10_3plus5_to_isco08_2:kldb10_3plus5_to_isco08_2()}{break}
     {helpb _cwfcn_kldb10_3plus5_to_isco08_1:kldb10_3plus5_to_isco08_1()}{p_end}
 {synopt :{helpb _cwfcn_kldb10_3plus5_to_bibb:kldb10_3plus5_to_bibb()}}KldB-2010 (3plus5 digit) to BIBB occupational fields; also see{break}
     {helpb _cwfcn_kldb10_5d_to_bibb:kldb10_5d_to_bibb()}{p_end}
 
-{syntab :Translations from KldB-1992}
-{synopt :{helpb _cwfcn_kldb92_4d_to_kldb10_5d:kldb92_4d_to_kldb10_5d()}}KldB-1992 (4 digit) to KldB-2010 (5 digit) (non-unique, requires option {help crosswalk##dupl:duplicates()}); also see{break}
+
+{bf :Translations from KldB-1992}
+
+{synopt :{helpb _cwfcn_kldb92_4d_to_kldb10_5d:kldb92_4d_to_kldb10_5d()}}KldB-1992 (4 digit) to KldB-2010 (5 digit) (non-unique); also see{break}
     {helpb _cwfcn_kldb92_4d_to_kldb10_3plus5:kldb92_4d_to_kldb10_3plus5()}{break}
     {helpb _cwfcn_kldb92_4d_to_kldb10_2plus5:kldb92_4d_to_kldb10_2plus5()}{break}
     {helpb _cwfcn_kldb92_4d_to_kldb10_4d:kldb92_4d_to_kldb10_4d()}{break}
     {helpb _cwfcn_kldb92_4d_to_kldb10_3d:kldb92_4d_to_kldb10_3d()}{break}
     {helpb _cwfcn_kldb92_4d_to_kldb10_2d:kldb92_4d_to_kldb10_2d()}{p_end}
+{synopt :{helpb _cwfcn_kldb92_3d_to_kldb10_2d:kldb92_3d_to_kldb10_2d()}}KldB-1992 (3 digit) to KldB-2010 (2-digit) (non-unique){p_end}
+{synopt :{helpb _cwfcn_kldb92_3d_to_kldb10_3d:kldb92_3d_to_kldb10_3d()}}KldB-1992 (3 digit) to KldB-2010 (3-digit) (non-unique){p_end}
+{synopt :{helpb _cwfcn_kldb92_3d_to_kldb10_2plus5:kldb92_3d_to_kldb10_2plus5()}}KldB-1992 (3 digit) to KldB-2010 (2plus5-digit) (non-unique){p_end}
 {synopt :{helpb _cwfcn_kldb92_3d_to_kldb88_3d:kldb92_3d_to_kldb88_3d()}}KldB-1992 (3 digit) to KldB-1988; also see{break}
     {helpb _cwfcn_kldb92_4d_to_kldb88_3d:kldb92_4d_to_kldb88_3d()}{break}
     {helpb _cwfcn_kldb92_3d_to_kldb88_2d:kldb92_3d_to_kldb88_2d()}{break}
@@ -84,14 +83,16 @@
 {synopt :{helpb _cwfcn_kldb92_3d_to_bibb:kldb92_3d_to_bibb()}}KldB-1992 (3 digit) to BIBB occupational fields; also see{break}
     {helpb _cwfcn_kldb92_4d_to_bibb:kldb92_4d_to_bibb()}{p_end}
 
-{syntab :Translations from KldB-1988}
-{synopt :{helpb _cwfcn_kldb88_4d_to_kldb10_5d:kldb88_4d_to_kldb10_5d()}}KldB-1988 (4 digit) to KldB-2010 (5 digit) (non-unique, requires option {help crosswalk##dupl:duplicates()}); also see{break}
+
+{bf :Translations from KldB-1988}
+
+{synopt :{helpb _cwfcn_kldb88_4d_to_kldb10_5d:kldb88_4d_to_kldb10_5d()}}KldB-1988 (4 digit) to KldB-2010 (5 digit) (non-unique); also see{break}
     {helpb _cwfcn_kldb88_4d_to_kldb10_3plus5:kldb88_4d_to_kldb10_3plus5()}{break}
     {helpb _cwfcn_kldb88_4d_to_kldb10_2plus5:kldb88_4d_to_kldb10_2plus5()}{break}
     {helpb _cwfcn_kldb88_4d_to_kldb10_4d:kldb88_4d_to_kldb10_4d()}{break}
     {helpb _cwfcn_kldb88_4d_to_kldb10_3d:kldb88_4d_to_kldb10_3d()}{break}
     {helpb _cwfcn_kldb88_4d_to_kldb10_2d:kldb88_4d_to_kldb10_2d()}{p_end}
-{synopt :{helpb _cwfcn_kldb88_3d_to_kldb10_5d:kldb88_3d_to_kldb10_5d()}}KldB-1988 (3 digit) to KldB-2010 (5 digit) (non-unique, requires option {help crosswalk##dupl:duplicates()}); also see{break}
+{synopt :{helpb _cwfcn_kldb88_3d_to_kldb10_5d:kldb88_3d_to_kldb10_5d()}}KldB-1988 (3 digit) to KldB-2010 (5 digit) (non-unique); also see{break}
     {helpb _cwfcn_kldb88_3d_to_kldb10_3plus5:kldb88_3d_to_kldb10_3plus5()}{break}
     {helpb _cwfcn_kldb88_3d_to_kldb10_2plus5:kldb88_3d_to_kldb10_2plus5()}{break}
     {helpb _cwfcn_kldb88_3d_to_kldb10_4d:kldb88_3d_to_kldb10_4d()}{break}
@@ -102,19 +103,36 @@
 {synopt :{helpb _cwfcn_kldb88_3d_to_bibb:kldb88_3d_to_bibb()}}KldB-1988 (3 digit) to BIBB occupational fields; also see{break}
     {helpb _cwfcn_kldb88_4d_to_bibb:kldb88_4d_to_bibb()}{p_end}
 
-{syntab :Translations from KldB-1975}
+
+{bf :Translations from KldB-1975}
+
 {synopt :{helpb _cwfcn_kldb75_3d_to_kldb88_3d:kldb75_3d_to_kldb88_3d()}}KldB-1975 (3 digit) to KldB-1988; also see{break}
     {helpb _cwfcn_kldb75_3d_to_kldb88_2d:kldb75_3d_to_kldb88_2d()}{p_end}
 {synopt :{helpb _cwfcn_kldb75_3d_to_kldb88harm:kldb75_3d_to_kldb88harm()}}KldB-1975 (3 digit) to KldB-1988, harmonized version{p_end}
 
-{syntab :Translation from ISCO-08}
-{synopt :{helpb _cwfcn_isco08_to_kldb10_3plus5:isco08_to_kldb10_3plus5()}}ISCO-08 (4 digit) to KldB-2010 (3plus5 digit) (non-unique, requires option {help crosswalk##dupl:duplicates()}); also see{break}
+
+{bf :Translation from ISCO-08}
+
+{synopt :{helpb _cwfcn_isco08_to_kldb10_3plus5:isco08_to_kldb10_3plus5()}}ISCO-08 (4 digit) to KldB-2010 (3plus5 digit) (non-unique); also see{break}
     {helpb _cwfcn_isco08_to_kldb10_2plus5:isco08_to_kldb10_2plus5()}{break}
     {helpb _cwfcn_isco08_to_kldb10_3d:isco08_to_kldb10_3d()}{break}
     {helpb _cwfcn_isco08_to_kldb10_2d:isco08_to_kldb10_2d()}{p_end}
 {synopt :{helpb _cwfcn_isco08_to_bibb:isco08_to_bibb()}}ISCO-08 (4 digit) to (modified) BIBB fields{p_end}
 
-{syntab :Aggregation}
+
+{bf :Occupational Prestige Scale for KldB-2010 by {help kldbrecode##bas:Ebner and Rohrbach-Schmidt (2021)}}
+
+{synopt :{helpb _cwfcn_kldb10_2plus5_to_bas25:kldb10_2plus5_to_bas25()}}Occupational Prestige Scale (BAS-2|5) for KldB-2010 (2plus5-digit); also see{break}
+    {helpb _cwfcn_kldb10_5d_to_bas25:kldb10_5d_to_bas25()}{break}
+    {helpb _cwfcn_kldb10_3plus5_to_bas25:kldb10_3plus5_to_bas25()}{p_end}
+{synopt :{helpb _cwfcn_kldb10_3d_to_bas3:kldb10_3d_to_bas3()}}Occupational Prestige Scale (BAS-3) for KldB-2010 (3-digit); also see{break}
+    {helpb _cwfcn_kldb10_5d_to_bas3:kldb10_5d_to_bas3()}{break}
+    {helpb _cwfcn_kldb10_4d_to_bas3:kldb10_4d_to_bas3()}{break}
+    {helpb _cwfcn_kldb10_3plus5_to_bas3:kldb10_3plus5_to_bas3()}{p_end}
+
+
+{bf :Aggregation}
+
 {synopt :{helpb _cwfcn_kldb10_5d_to_kldb10_3plus5:kldb10_5d_to_kldb10_3plus5()}}5-digit to 3plus5-digit KldB-2010{p_end}
 
 {synopt :{helpb _cwfcn_kldb10_3plus5_to_kldb10_2plus5:kldb10_3plus5_to_kldb10_2plus5()}}3plus5-digit to 2plus5-digit KldB-2010; also see{break}
@@ -189,7 +207,7 @@
         {com}crosswalk isco08 = kldb10_5d_to_isco08(occ_kldb10), duplicates(first){txt}
 
 {pstd}   
-    {cmd: kldb10_5d_to_isco08()} is a non-unique crosswalk table, meaning that a single 5-digit KldB-2010 code 
+    {helpb _cwfcn_kldb10_5d_to_isco08:kldb10_5d_to_isco08()} is a non-unique crosswalk table, meaning that a single 5-digit KldB-2010 code 
     may be matched to multiple ISCO-08 codes and requires option {helpb crosswalk##dupl:duplicates()}.
     In the example, the crosswalk function uses the first (topmost) match.
     {p_end}
@@ -199,11 +217,17 @@
         {com}crosswalk bas3_v2 = kldb10_5d_to_bas3(occ_kldb10 {it:2}){txt}
 
 {pstd}   
-    Ebner and Rohrbach-Schmidt provide two versions of BAS-3.
-    In the example, the V2 is generated as specified in the {helpb crosswalk##case:{it:case argument}}. 
+    Ebner and Rohrbach-Schmidt provide two versions of BAS-3 (see {helpb _cwfcn_kldb10_3d_to_bas3:kldb10_3d_to_bas3()}).
+    In the example, the  {helpb crosswalk##case:{it:case argument}} with the value {cmd: {it:2}} specifies that V2 is to be generated.
     {p_end}
 
 {dlgtab:Generate ISEI scores from KldB-2010}
+
+{pstd}   
+    With {cmd: crosswalk define}, we can define custom crosswalk functions as a wrapper for crosswalk tables. 
+    In the example, we combine {helpb _cwfcn_kldb10_5d_to_isco08:kldb10_5d_to_isco08()} from {cmd: kldbrecode} 
+    and {helpb _cwfcn_isco08_to_isei:isco08_to_isei()} from {cmd: crosswalk}. 
+    {p_end}
 
         // define kldb10_5d_to_isei08 crosswalk function
         {com}crosswalk define kldb10_5d_to_isei08()
@@ -215,9 +239,6 @@
         {com}crosswalk isei = kldb10_5d_to_isei08(occ_kldb10), duplicates(first)
         crosswalk isei_alt = kldb10_5d_to_isei08(occ_kldb10), duplicates(mean){txt}
     
-{pstd}   
-    With {cmd: crosswalk define}, we can define custom crosswalk functions as a wrapper for crosswalk tables.
-    {p_end}
 
 {pstd}   
       {cmd: kldb10_5d_to_isco08()} is a non-unique crosswalk table,
@@ -339,6 +360,7 @@
 {pstd}
     Thanks for citing this software as follows:
 
-{pmore}
-    Gerhardt, H. and Kappes A. (2024). kldbrecode: Stata module to translate KldB codes.
-
+{pmore}   
+    Gerhardt, H. and Kappes, A. (2025). kldbrecode: Stata module to translate KldB codes. Available from 
+    {browse "https://github.com/hagerhardt/kldbrecode"}.
+    

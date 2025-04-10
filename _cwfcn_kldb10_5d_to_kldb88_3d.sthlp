@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.3 03apr2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 01.0.0 10apr2025 Hans Gerhardt and Anneke Kappes}{...}
 {hi:kldb10_5d_to_kldb88_3d()} {hline 2} Translate 5-digit KldB-2010 to 3-digit KldB-1988
 
 {title:Syntax}
@@ -18,11 +18,11 @@
 
 {pstd}
     Bundesagentur für Arbeit, Statistik/Arbeitsmarktberichterstattung. (2011). 
-	Umsteigeschlüssel von der Klassifikation der Berufe 2010 (5-Steller) zur Klassifizierung der Berufe 1988 (3-Steller).
-	Provided at {browse "https://statistik.arbeitsagentur.de/DE/Navigation/Grundlagen/Klassifikationen/Klassifikation-der-Berufe/Archiv-KldB/KldB2010/KldB2010-Nav.html"}. 
+    Umsteigeschlüssel von der Klassifikation der Berufe 2010 (5-Steller) zur Klassifizierung der Berufe 1988 (3-Steller).
+    Provided at {browse "https://statistik.arbeitsagentur.de/DE/Navigation/Grundlagen/Klassifikationen/Klassifikation-der-Berufe/Archiv-KldB/KldB2010/KldB2010-Nav.html"}. 
     {p_end}
     
-{pstd}	
+{pstd}    
     Leading zeros have been added to KldB-2010 codes with less than 5 digits.
     {p_end}
     

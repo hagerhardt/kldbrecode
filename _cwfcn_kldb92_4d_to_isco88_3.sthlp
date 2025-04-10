@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.3 03apr2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 01.0.0 10apr2025 Hans Gerhardt and Anneke Kappes}{...}
 {hi:kldb92_4d_to_isco88_3()} {hline 2} Translate 4-digit KldB-1992 to 3-digit ISCO-88
 
 {title:Syntax}
@@ -23,7 +23,6 @@
 
 {pstd}
     Leading zeros have been added to KldB-1992 codes with less than 4 digits.
-  
     
 {hline}
 {asis}
@@ -2132,7 +2131,6 @@
 8795 334
 8796 235
 8798 235
-8736 334
 8799 334
 8800 214
 8801 214

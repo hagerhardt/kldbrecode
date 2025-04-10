@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.3 03apr2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 01.0.0 10apr2025 Hans Gerhardt and Anneke Kappes}{...}
 {hi:kldb88_4d_to_kldb88_2d()} {hline 2} Translate 4-digit KldB-1988 to 2-digit KldB-1988 codes
 
 {title:Syntax}

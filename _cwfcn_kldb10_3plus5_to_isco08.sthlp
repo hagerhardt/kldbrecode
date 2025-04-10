@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.3 03apr2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 01.0.0 10apr2025 Hans Gerhardt and Anneke Kappes}{...}
 {hi:kldb10_3plus5_to_isco08()} {hline 2} Translate 3plus5-digit KldB-2010 to 4-digit ISCO-08
 
 {title:Syntax}
@@ -30,8 +30,8 @@
 
 {pstd}
     Bundesagentur für Arbeit, Statistik/Arbeitsmarktberichterstattung. (2021). 
-	Umsteigeschlüssel von der Klassifikation der Berufe 2010 – überarbeitete Fassung 2020 (5-Steller) zur ISCO-08 (4-Steller).
-	Provided at {browse "https://statistik.arbeitsagentur.de/DE/Navigation/Grundlagen/Klassifikationen/Klassifikation-der-Berufe/KldB2010-Fassung2020/Arbeitsmittel/Arbeitsmittel-Nav.html"}. 
+    Umsteigeschlüssel von der Klassifikation der Berufe 2010 – überarbeitete Fassung 2020 (5-Steller) zur ISCO-08 (4-Steller).
+    Provided at {browse "https://statistik.arbeitsagentur.de/DE/Navigation/Grundlagen/Klassifikationen/Klassifikation-der-Berufe/KldB2010-Fassung2020/Arbeitsmittel/Arbeitsmittel-Nav.html"}. 
     {p_end}
 
 {hline}

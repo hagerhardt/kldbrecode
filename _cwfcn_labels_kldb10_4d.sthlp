@@ -1,11 +1,12 @@
 {smcl}
-{* version 0.2.3 03apr2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 01.0.0 10apr2025 Hans Gerhardt and Anneke Kappes}{...}
 {hi:labels_kldb10_4d()} {hline 2} KldB-2010 labels (4 digits)
 
 {title:Description}
 
 {pstd}
     {helpb kldbrecode} table providing labels for 4-digit KldB-2010 codes.
+    {p_end}
 
 {title:Source}
 
@@ -15,6 +16,10 @@
     Provided at {browse "https://statistik.arbeitsagentur.de/DE/Navigation/Grundlagen/Klassifikationen/Klassifikation-der-Berufe/KldB2010-Fassung2020/KldB2010-Fassung2020-Nav.html"}. 
     {p_end}
     
+{pstd}
+    8112 Podologist was changed to 8177 with the 2020 revision.
+    {p_end}
+
 {hline}
 {asis}
 0110  "Commissioned officers"
@@ -510,6 +515,7 @@
 7339  "Managers in media, documentation and information services"
 8110  "Medical assistants (without specialisation)"
 8111  "Dental assistants"
+8112  "Podologists"
 8113  "Orthoptists"
 8114  "Veterinary assistants"
 8118  "Medical assistants (with specialisation, not elsewhere classified)"

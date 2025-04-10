@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.3 03apr2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 01.0.0 10apr2025 Hans Gerhardt and Anneke Kappes}{...}
 {hi:kldb88_4d_to_kldb88_3d()} {hline 2} Translate 4-digit KldB-1988 to 3-digit KldB-1988 
 
 {title:Syntax}
@@ -17,9 +17,9 @@
 {title:Source}
 
 {pstd}
-	Bundesagentur für Arbeit, Statistik/Arbeitsmarktberichterstattung. (2009). 
-	Klassifizierung der Berufe 1988. Systematisches und alphabetisches Verzeichnis der Berufsbenennungen.
-	Provided at {browse "https://statistik.arbeitsagentur.de/DE/Navigation/Grundlagen/Klassifikationen/Klassifikation-der-Berufe/Archiv-KldB/KldB1975-1992/KldB1975-1992-Nav.html"}.
+    Bundesagentur für Arbeit, Statistik/Arbeitsmarktberichterstattung. (2009). 
+    Klassifizierung der Berufe 1988. Systematisches und alphabetisches Verzeichnis der Berufsbenennungen.
+    Provided at {browse "https://statistik.arbeitsagentur.de/DE/Navigation/Grundlagen/Klassifikationen/Klassifikation-der-Berufe/Archiv-KldB/KldB1975-1992/KldB1975-1992-Nav.html"}.
     {p_end}
 
 {hline}

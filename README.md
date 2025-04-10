@@ -26,12 +26,16 @@ For a list of the provided crosswalk functions and a basic documentation of the 
     . help kldbrecode
 
 Stata version 14 or newer is required. Furthermore, the packages
-[`moremata`](https://github.com/benjann/moremata) and [`crosswalk`](https://github.com/benjann/crosswalk) need to be installed
-on the system:
+[`moremata`](https://github.com/benjann/moremata) and [`crosswalk`](https://github.com/benjann/crosswalk) need to be installed on the system:
 
     . ssc install moremata, replace
-    . net from https://raw.githubusercontent.com/benjann/crosswalk/main/
-    . net install crosswalk, replace
+    . ssc install crosswalk, replace
+
+---
+
+Thanks for citing this software as follows:
+
+Gerhardt, H. and Kappes, A. (2025). kldbrecode: Stata module to translate KldB codes. Available from https://github.com/hagerhardt/kldbrecode.
 
 ---
 

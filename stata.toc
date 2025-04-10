@@ -1,4 +1,4 @@
-v 00.023
+v 01.0.0
 d 'kldbrecode' - Stata module to translate German Classifications of Occupations (KldB)
 
 d Hans Gerhardt and Anneke Kappes

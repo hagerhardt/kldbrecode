@@ -1,11 +1,12 @@
 {smcl}
-{* version 0.2.3 03apr2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 01.0.0 10apr2025 Hans Gerhardt and Anneke Kappes}{...}
 {hi:labels_kldb10_5d()} {hline 2} KldB-2010 labels (5 digits)
 
 {title:Description}
 
 {pstd}
     {helpb kldbrecode} table providing labels for 5-digit KldB-2010 codes.
+    {p_end}
 
 {title:Source}
 
@@ -13,6 +14,10 @@
      Bundesagentur für Arbeit, Statistik/Arbeitsmarktberichterstattung. (2021). 
 	Systematisches Verzeichnis der Klassifikation der Berufe 2010 – überarbeitete Fassung 2020 (5-Steller).
     Provided at {browse "https://statistik.arbeitsagentur.de/DE/Navigation/Grundlagen/Klassifikationen/Klassifikation-der-Berufe/KldB2010-Fassung2020/KldB2010-Fassung2020-Nav.html"}. 
+    {p_end}
+
+{pstd}
+    81122 Podologist - skilled tasks was changed to 81772 with the 2020 revision.
     {p_end}
 
 {hline}
@@ -975,6 +980,7 @@
 81103  "Medical assistants (without specialisation)-complex tasks"
 81112  "Dental assistants-skilled tasks"
 81113  "Dental assistants-complex tasks"
+81122  "Podologists-skilled tasks"
 81132  "Orthoptists-skilled tasks"
 81142  "Veterinary assistants-skilled tasks"
 81143  "Veterinary assistants-complex tasks"

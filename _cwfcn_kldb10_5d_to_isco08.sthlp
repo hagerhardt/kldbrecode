@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.3 03apr2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 01.0.0 10apr2025 Hans Gerhardt and Anneke Kappes}{...}
 {hi:kldb10_5d_to_isco08()} {hline 2} Translate 5-digit KldB-2010 to 4-digit ISCO-08
 
 {title:Syntax}
@@ -28,14 +28,18 @@
 
 {pstd}
     Bundesagentur für Arbeit, Statistik/Arbeitsmarktberichterstattung. (2021). 
-	Umsteigeschlüssel von der Klassifikation der Berufe 2010 – überarbeitete Fassung 2020 (5-Steller) zur ISCO-08 (4-Steller).
-	Provided at {browse "https://statistik.arbeitsagentur.de/DE/Navigation/Grundlagen/Klassifikationen/Klassifikation-der-Berufe/KldB2010-Fassung2020/Arbeitsmittel/Arbeitsmittel-Nav.html"}. 
+    Umsteigeschlüssel von der Klassifikation der Berufe 2010 – überarbeitete Fassung 2020 (5-Steller) zur ISCO-08 (4-Steller).
+    Provided at {browse "https://statistik.arbeitsagentur.de/DE/Navigation/Grundlagen/Klassifikationen/Klassifikation-der-Berufe/KldB2010-Fassung2020/Arbeitsmittel/Arbeitsmittel-Nav.html"}. 
     {p_end}
     
-{pstd}	
+{pstd}    
     Leading zeros have been added to KldB-2010 codes with less than 5 digits.
     {p_end}
-    
+
+{pstd}
+    81122 added to provide recoding for original KldB-2010 classification.
+    {p_end}  
+
 {hline}
 {asis}
 01104 0110
@@ -1184,6 +1188,7 @@
 81103 3256
 81112 3251
 81113 3251
+81122 3255
 81132 2267
 81142 3240
 81143 3240

@@ -1,5 +1,5 @@
 {smcl}
-{version 0.2.3 03apr2025  Hans Gerhardt and Anneke Kappes}{...}
+{version 01.0.0 10apr2025 Hans Gerhardt and Anneke Kappes}{...}
 {hi:kldb92_4d_to_kldb10_5d()} {hline 2} Translate 4-digit KldB-1992 to 5-digit KldB-2010
 
 {title:Syntax}
@@ -27,8 +27,8 @@
 
 {pstd}
     Bundesagentur für Arbeit, Statistik/Arbeitsmarktberichterstattung. (2011). 
-	Umsteigeschlüssel von der Klassifikation der Berufe 1992 (4-Steller) zur Klassifikation der Berufe 2010 (5-Steller). Bundesagentur für Arbeit.
-	Provided at {browse "https://statistik.arbeitsagentur.de/DE/Navigation/Grundlagen/Klassifikationen/Klassifikation-der-Berufe/Archiv-KldB/KldB2010/KldB2010-Nav.html"}.
+    Umsteigeschlüssel von der Klassifikation der Berufe 1992 (4-Steller) zur Klassifikation der Berufe 2010 (5-Steller). Bundesagentur für Arbeit.
+    Provided at {browse "https://statistik.arbeitsagentur.de/DE/Navigation/Grundlagen/Klassifikationen/Klassifikation-der-Berufe/Archiv-KldB/KldB2010/KldB2010-Nav.html"}.
     {p_end}
 
 {pstd}

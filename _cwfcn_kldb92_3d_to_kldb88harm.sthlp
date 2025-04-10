@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.3 03apr2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 01.0.0 10apr2025 Hans Gerhardt and Anneke Kappes}{...}
 {hi:kldb92_3d_to_kldb88_3d_harm()} {hline 2} Translate 3-digit KldB-1992 to harmonized 3-digit KldB-1988 
 
 {title:Syntax}
@@ -33,7 +33,7 @@
     {p_end}
  
 {pstd}
-    Translations for 250, 266, 268, 269, 292, 293, 307, 354, 609, 661, 662, 663 added.
+    Translations for 250, 266, 268, 269, 292, 293, 307, 354, 609, 661, 662, 663, 992, 993 added.
     {p_end}
     
 {hline}
@@ -221,6 +221,7 @@
 606  606
 607  607
 608  607
+609  603
 611  611
 612  612
 620  628
@@ -400,7 +401,9 @@
 982  981
 983  981
 991  991
+992  991
 993  991
+994  991
 995  991
 996  991
 997  991

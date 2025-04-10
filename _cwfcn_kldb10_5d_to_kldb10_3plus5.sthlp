@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.2.3 03apr2025  Hans Gerhardt and Anneke Kappes}{...}
+{* version 01.0.0 10apr2025 Hans Gerhardt and Anneke Kappes}{...}
 {hi:kldb10_5d_to_kldb10_3plus5()} {hline 2} Translate 5-digit KldB-2010 to 3plus5-digit KldB-2010 codes
 
 {title:Syntax}
@@ -17,11 +17,15 @@
 {title:Source}
 
 {pstd}
-	Bundesagentur für Arbeit, Statistik/Arbeitsmarktberichterstattung. (2021). 
-	Klassifikation der Berufe 2010 – überarbeitete Fassung 2020.
-	Provided at {browse "https://statistik.arbeitsagentur.de/DE/Navigation/Grundlagen/Klassifikationen/Klassifikation-der-Berufe/KldB2010-Fassung2020/KldB2010-Fassung2020-Nav.html"}. 
+    Bundesagentur für Arbeit, Statistik/Arbeitsmarktberichterstattung. (2021). 
+    Klassifikation der Berufe 2010 – überarbeitete Fassung 2020.
+    Provided at {browse "https://statistik.arbeitsagentur.de/DE/Navigation/Grundlagen/Klassifikationen/Klassifikation-der-Berufe/KldB2010-Fassung2020/KldB2010-Fassung2020-Nav.html"}. 
     {p_end}
-	 
+
+{pstd}
+    81122 added to provide recoding for original KldB-2010 classification.
+    {p_end}  
+     
 {hline}
 {asis}
 01104 0114
@@ -982,6 +986,7 @@
 81103 8113
 81112 8112
 81113 8113
+81122 8112
 81132 8112
 81142 8112
 81143 8113
