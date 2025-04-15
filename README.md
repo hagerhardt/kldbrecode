@@ -14,12 +14,14 @@ The package allows for various transformations from German KldB codes:
 
 A set of labels for German classifications of occupations is also provided.
 
-To install the `kldbrecode` package from GitHub, type
+To install the `kldbrecode` package from the SSC Archive, type
+
+    . ssc install kldbrecode, replace
+
+in Stata. Alternatively, install `kldbrecode` rom GitHub as follows:
 
     . net from https://raw.githubusercontent.com/hagerhardt/kldbrecode/main/
     . net install kldbrecode, replace
-
-in Stata.
 
 For a list of the provided crosswalk functions and a basic documentation of the syntax, see
 
@@ -35,7 +37,7 @@ Stata version 14 or newer is required. Furthermore, the packages
 
 Thanks for citing this software as follows:
 
-Gerhardt, H. and Kappes, A. (2025). kldbrecode: Stata module to translate KldB codes. Available from https://github.com/hagerhardt/kldbrecode.
+Gerhardt, H. and Kappes, A. (2025). KLDBRECODE: Stata module that provides crosswalk tables for translations between German KldB and ISCO. Available from (https://ideas.repec.org/c/boc/bocode/s459442.html).
 
 ---
 
