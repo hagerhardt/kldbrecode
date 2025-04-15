@@ -37,7 +37,7 @@ Stata version 14 or newer is required. Furthermore, the packages
 
 Thanks for citing this software as follows:
 
-Gerhardt, H. and Kappes, A. (2025). KLDBRECODE: Stata module that provides crosswalk tables for translations between German KldB and ISCO. Available from (https://ideas.repec.org/c/boc/bocode/s459442.html).
+Gerhardt, H. and Kappes, A. (2025). KLDBRECODE: Stata module that provides crosswalk tables for translations between German KldB and ISCO. Available from https://ideas.repec.org/c/boc/bocode/s459442.html.
 
 ---
 
