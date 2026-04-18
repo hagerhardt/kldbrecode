@@ -42,3 +42,5 @@ Gerhardt, H. and Kappes, A. (2025). KLDBRECODE: Stata module that provides cross
 ---
 
 Main changes:
+
+- 2026-04-18: BAS Prestige Scale for KldB-2010 5-digit codes added.

@@ -1,5 +1,5 @@
 {smcl}
-{* version 0.03.0 04apr2025}{...}
+{* version 1.01.0 18apr2026}{...}
 {vieweralsosee "[D] crosswalk" "help crosswalk"}{...}
 {viewerjumpto "Syntax" "kldbrecode##syntax"}{...}
 {viewerjumpto "Translations" "kldbrecode##kldbrec"}{...}
@@ -122,6 +122,7 @@
 
 {synopt : {ul: Occupational Prestige Scale for KldB-2010} by {help kldbrecode##bas:Ebner and Rohrbach-Schmidt (2021)}}{p_end}
 
+{synopt :{helpb _cwfcn_kldb10_5d_to_bas5:kldb10_5d_to_bas5()}}Occupational Prestige Scale (BAS-5) for KldB-2010 (5-digit){p_end}
 {synopt :{helpb _cwfcn_kldb10_2plus5_to_bas25:kldb10_2plus5_to_bas25()}}Occupational Prestige Scale (BAS-2|5) for KldB-2010 (2plus5-digit); also see{break}
     {helpb _cwfcn_kldb10_5d_to_bas25:kldb10_5d_to_bas25()}{break}
     {helpb _cwfcn_kldb10_3plus5_to_bas25:kldb10_3plus5_to_bas25()}{p_end}
@@ -361,6 +362,4 @@
     Thanks for citing this software as follows:
 
 {pmore}   
-    Gerhardt, H. and Kappes, A. (2025). kldbrecode: Stata module to translate KldB codes. Available from 
-    {browse "https://github.com/hagerhardt/kldbrecode"}.
-    
+    Gerhardt, H. and Kappes, A. (2025). KLDBRECODE: Stata module that provides crosswalk tables for translations between German KldB and ISCO. Available from {browse "https://ideas.repec.org/c/boc/bocode/s459442.html"}.
