@@ -1,5 +1,5 @@
 {smcl}
-{* version 1.01.0 18apr2026}{...}
+{* version 1.02.0 10jul2026}{...}
 {vieweralsosee "[D] crosswalk" "help crosswalk"}{...}
 {viewerjumpto "Syntax" "kldbrecode##syntax"}{...}
 {viewerjumpto "Translations" "kldbrecode##kldbrec"}{...}
@@ -119,6 +119,10 @@
     {helpb _cwfcn_isco08_to_kldb10_2d:isco08_to_kldb10_2d()}{p_end}
 {synopt :{helpb _cwfcn_isco08_to_bibb:isco08_to_bibb()}}ISCO-08 (4 digit) to (modified) BIBB fields{p_end}
 
+
+{synopt : {ul: Occupational Earnings Potential for Germany by {help kldbrecode##oep:Oesch et. al (2025)}}}{p_end}
+
+{synopt :{helpb _cwfcn_isco08_to_oepde:isco08_to_oepde()}}ISCO-08 (4 digit) to Occupational Earnings Potential for Germany{p_end}
 
 {synopt : {ul: Occupational Prestige Scale for KldB-2010} by {help kldbrecode##bas:Ebner and Rohrbach-Schmidt (2021)}}{p_end}
 
@@ -332,6 +336,13 @@
     Maier, T. 2022. Change in occupational tasks and its implications.
     Evidence from a task panel from 1973 to 2011 for Western Germany. 
     Quality & Quantity. DOI: {browse "https://doi.org/10.1007/s11135-021-01158-y":10.1007/s11135-021-01158-y}.
+    {p_end}
+
+{marker oep}{...}
+{phang}
+    Oesch, D., Lipps, O., Shahbazian, R., Bihagen, E., & Morris, K. 2026. 
+    Occupational earning potential: a new measure of social hierarchy in Europe and the US.
+    European Sociological Review, 42(3), 421–441.  DOI: {browse "https://doi.org/10.1093/esr/jcaf035":10.1093/esr/jcaf035}.
     {p_end}
 
 {marker bibbfields}{...}
