@@ -18,7 +18,7 @@ To install the `kldbrecode` package from the SSC Archive, type
 
     . ssc install kldbrecode, replace
 
-in Stata. Alternatively, install `kldbrecode` rom GitHub as follows:
+in Stata. Alternatively, install `kldbrecode` with minor updates from GitHub as follows:
 
     . net from https://raw.githubusercontent.com/hagerhardt/kldbrecode/main/
     . net install kldbrecode, replace
