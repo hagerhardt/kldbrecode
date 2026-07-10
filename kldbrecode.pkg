@@ -1,17 +1,18 @@
-v 01.1.0
+v 01.2.0
 d kldbrecode - Crosswalk tables to translate German Classifications of Occupations (KldB)
 d Authors: Hans Gerhardt & Anneke Kappes
 d The packages moremata and crosswalk are required.
 d For a list of the provided crosswalk functions 
 d    and a basic documentation of the syntax, 
 d    type help kldbrecode after installation.
-d Distribution-Date: 20250410
+d Distribution-Date: 20260710
 f kldbrecode.sthlp
 f _cwfcn_isco08_to_bibb.sthlp
 f _cwfcn_isco08_to_kldb10_2d.sthlp
 f _cwfcn_isco08_to_kldb10_2plus5.sthlp
 f _cwfcn_isco08_to_kldb10_3d.sthlp
 f _cwfcn_isco08_to_kldb10_3plus5.sthlp
+f _cwfcn_isco08_to_oepde.sthlp
 f _cwfcn_kldb10_2plus5_to_bas25.sthlp
 f _cwfcn_kldb10_2plus5_to_kldb10_2d.sthlp
 f _cwfcn_kldb10_3d_to_bas3.sthlp
